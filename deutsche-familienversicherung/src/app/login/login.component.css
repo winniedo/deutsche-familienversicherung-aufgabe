@@ -1,0 +1,126 @@
+
+.main-div{
+  background-image: url("images/ue-buhne.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form{
+  padding: 5%;
+}
+.login{
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.title{
+  text-align: center;
+}
+.title h1{
+  margin:auto;
+  line-height:51px;
+  vertical-align:middle;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.error{
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+button {
+  background-color: #005cbf;
+  border-radius: 30px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+
+}
+
+.login-button{
+  float: right;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #5a6268;
+  margin-right: 10px;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+ fa-icon{
+   margin-right: 10px;
+ }
+
+.container {
+  padding: 16px;
+}
+
+span.vnGeb {
+  float: right;
+  padding-top: 16px;
+}
+
+input{
+  font-family: FontAwesome;
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+.main-div mat-card {
+  padding: 0px;
+}
+.bottom-div{
+  background-color:#f1f1f1;
+}
+
+.login-form{
+  padding: 20px;
+}
+
+.flex-me {
+  display: inline-flex;
+  flex-flow: row wrap;
+  background: grey;
+}
+

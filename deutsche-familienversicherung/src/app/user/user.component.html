@@ -1,0 +1,22 @@
+<p>user works!</p>
+<p>data user {{allData}}</p>
+<ul *ngFor="let data for allData">
+  <li>{{data.mainContractId}}</li>
+</ul>
+
+<div>
+  {{allData | json}}
+</div>
+
+<div>
+  {{allData?vertrag}}
+</div>
+
+<p>info user</p>
+<ul *ngFor="let user of persons">
+  <li>{{user}}</li>
+</ul>
+
+
+
+
