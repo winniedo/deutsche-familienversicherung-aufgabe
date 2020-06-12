@@ -2,5 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css);
 @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; background-image: url('./assets/images/dfv.jpg')}
+body { margin: 0; font-family: "Helvetica Neue", sans-serif; font-size: larger;}
+button { font-size: larger;}
+

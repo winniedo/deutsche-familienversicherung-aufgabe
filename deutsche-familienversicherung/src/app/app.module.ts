@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
-import {AppRoutingModule} from './app-routing/app-routing.module';
+import {AppRoutingModule} from './app.routing';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
@@ -17,18 +17,20 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { UserComponent } from './user/user.component';
-import {ApiService} from './service/api-service.service';
-import { ProduitComponent } from './produit/produit.component';
+import {ApiService} from './api-service.service';
+import { ProductComponent } from './product/product.component';
 import { MainComponent } from './main/main.component';
 import {MatTableModule} from "@angular/material/table";
+import { InfomessageComponent } from './infomessage/infomessage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UserComponent,
-    ProduitComponent,
-    MainComponent
+    ProductComponent,
+    MainComponent,
+    InfomessageComponent
   ],
   imports: [
     BrowserModule,

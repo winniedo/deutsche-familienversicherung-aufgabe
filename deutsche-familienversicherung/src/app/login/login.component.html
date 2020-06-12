@@ -5,7 +5,7 @@
       <div class="container">
         <fa-icon [icon]="userIcon"></fa-icon>
         <label for="dfvVnr"><b> Vertragsnummer </b></label>
-        <input type="text" id="dfvVnr" formControlName="dfvVnr" autocomplete="off" [(ngModel)]="getvnr">
+        <input type="text" id="dfvVnr" formControlName="dfvVnr" autocomplete="off" [(ngModel)]="vnr">
         <div class="error" *ngIf="loginForm.controls['dfvVnr'].hasError('required')
           && loginForm.controls['dfvVnr'].touched"> Bitte Vertragsnummer eingeben </div>
         <fa-icon [icon]="passIcon"></fa-icon>

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng build && node ./bin/www",
+    "startAng": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -32,7 +33,13 @@
     "hammerjs": "^2.0.8",
     "rxjs": "~6.5.5",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "body-parser": "^1.19.0",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.7",

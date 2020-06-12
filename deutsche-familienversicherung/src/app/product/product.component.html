@@ -1,0 +1,48 @@
+<div *ngIf="userData" class="card">
+    <div class="cover">
+        <img src="./assets/images/product1.jpg"/>
+    </div>
+    <div class="content">
+    Wir haben einen Vertrag mit besseren Konditionnen für Sie:<br/>
+    Typ: {{userData.versionen[0].typ}}<br/>
+    Produkt: {{userData.versionen[0].produkt}}<br/>
+    LEISTUNGSDYNAMIK: {{userData.versionen[0].leistungen.LEISTUNGSDYNAMIK}}<br/>
+    EINMALLEISTUNG_UNFALL: {{userData.versionen[0].leistungen.EINMALLEISTUNG_UNFALL}}<br/>
+    AMBULANT1: {{userData.versionen[0].leistungen.AMBULANT1}}<br/>
+    AMBULANT2: {{userData.versionen[0].leistungen.AMBULANT2}}<br/>
+    AMBULANT3: {{userData.versionen[0].leistungen.AMBULANT3}}<br/>
+    AMBULANT4: {{userData.versionen[0].leistungen.AMBULANT4}}<br/>
+    AMBULANT5: {{userData.versionen[0].leistungen.AMBULANT5}}<br/>
+    STATIONAER1: {{userData.versionen[0].leistungen.STATIONAER1}}<br/>
+    STATIONAER2: {{userData.versionen[0].leistungen.STATIONAER2}}<br/>
+    STATIONAER3: {{userData.versionen[0].leistungen.STATIONAER3}}<br/>
+    STATIONAER4: {{userData.versionen[0].leistungen.STATIONAER4}}<br/>
+    STATIONAER5: : {{userData.versionen[0].leistungen.STATIONAER5}}<br/>
+    Beitrag: {{userData.versionen[0].beitrag}}<br/>
+    <button (click)="select(userData.versionen[0].produkt)">Vertrag Wechseln</button>
+</div>
+</div>
+
+<div *ngIf="userData" class="card">
+    <div class="cover">
+        <img src="./assets/images/product2.jpg"/>
+    </div>
+    <div class="content">
+    <br/>
+    Typ: {{userData.versionen[1].typ}}<br/>
+    Produkt: {{userData.versionen[1].produkt}}<br/>
+    LEISTUNGSDYNAMIK: {{userData.versionen[1].leistungen.LEISTUNGSDYNAMIK}}<br/>
+    EINMALLEISTUNG_UNFALL: {{userData.versionen[1].leistungen.EINMALLEISTUNG_UNFALL}}<br/>
+    AMBULANT1: {{userData.versionen[1].leistungen.AMBULANT1}}<br/>
+    AMBULANT2: {{userData.versionen[1].leistungen.AMBULANT2}}<br/>
+    AMBULANT3: {{userData.versionen[1].leistungen.AMBULANT3}}<br/>
+    AMBULANT4: {{userData.versionen[1].leistungen.AMBULANT4}}<br/>
+    AMBULANT5: {{userData.versionen[1].leistungen.AMBULANT5}}<br/>
+    STATIONAER1: {{userData.versionen[1].leistungen.STATIONAER1}}<br/>
+    STATIONAER2: {{userData.versionen[1].leistungen.STATIONAER2}}<br/>
+    STATIONAER3: {{userData.versionen[1].leistungen.STATIONAER3}}<br/>
+    STATIONAER4: {{userData.versionen[1].leistungen.STATIONAER4}}<br/>
+    STATIONAER5: : {{userData.versionen[1].leistungen.STATIONAER5}}<br/>
+    Beitrag: {{userData.versionen[1].beitrag}}<br/>
+</div>
+</div>

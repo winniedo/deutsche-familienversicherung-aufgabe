@@ -1,3 +1,28 @@
 
-<app-user></app-user>
-<app-produit></app-produit>
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row" style="{height: 50vh;}">
+            <div class="col-md-3">
+                <app-user [userData]="userData1"></app-user>            
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-3">
+                <app-infomessage [message]="message"></app-infomessage>               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <app-product [userData]="userData2" (userMessageEvent)="getUserMessage($event)"></app-product>              
+                <app-login *ngIf="login" (userDataEvent)="getUserData($event)"></app-login>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+</div>
+
